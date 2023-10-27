@@ -1,0 +1,58 @@
+LIMIT:
+  symbol: "BTC_USDT"
+  type: "limit"
+  side: "buy"
+  amount: 1.0
+  positionAction: "open"
+  exchange: "bitget"
+  timeInForce: "GTC"
+  price: 30000.0
+
+MARKET:
+  symbol: "BTC_USDT"
+  type: "market"
+  side: "buy"
+  amount: 1.0
+  positionAction: "open"
+  exchange: "bitget"
+  timeInForce: "GTC"
+
+STOP_LIMIT:
+  symbol: "BTC_USDT"
+  type: "stop_limit"
+  side: "buy"
+  amount: 1.0
+  positionAction: "open"
+  exchange: "bitget"
+  timeInForce: "GTC"
+
+STOP_MARKET:
+  symbol: "BTC_USDT"
+  type: "stop_market"
+  side: "buy"
+  amount: 1.0
+  positionAction: "open"
+  exchange: "bitget"
+  timeInForce: "GTC"
+
+STOP_LOSS:
+  symbol: "BTC_USDT"
+  type: "tpsl_market"
+  side: "buy"
+  amount: 1.0
+  positionAction: "open"
+  exchange: "bitget"
+  timeInForce: "GTC"
+
+TAKE_PROFIT:
+  symbol: "BTC_USDT"
+  type: "tpsl_market"
+  side: "buy"
+  amount: 1.0
+  positionAction: "open"
+  exchange: "bitget"
+  timeInForce: "GTC"
+
+CANCEL_ORDER:
+  id: "123456789"
+  symbol: "BTC_USDT"
